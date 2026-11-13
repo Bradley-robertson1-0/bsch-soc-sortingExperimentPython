@@ -1,0 +1,16 @@
+Algorithm,InputSize,OrderingType,RunNumber,ElapsedMilliseconds,OperationCount
+MergeSort,5000,nearlysorted,1,5.7801,48861
+MergeSort,5000,nearlysorted,2,5.7963,48861
+MergeSort,5000,nearlysorted,3,6.4952,48861
+MergeSort,5000,nearlysorted,4,6.1367,48861
+MergeSort,5000,nearlysorted,5,5.9540,48861
+BubbleSort,5000,nearlysorted,1,453.9574,12492844
+BubbleSort,5000,nearlysorted,2,453.4593,12492844
+BubbleSort,5000,nearlysorted,3,451.1768,12492844
+BubbleSort,5000,nearlysorted,4,468.8931,12492844
+BubbleSort,5000,nearlysorted,5,451.4793,12492844
+InsertionSort,5000,nearlysorted,1,40.2165,785768
+InsertionSort,5000,nearlysorted,2,41.0882,785768
+InsertionSort,5000,nearlysorted,3,40.2948,785768
+InsertionSort,5000,nearlysorted,4,40.3929,785768
+InsertionSort,5000,nearlysorted,5,40.5342,785768

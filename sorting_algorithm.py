@@ -79,3 +79,36 @@ def _merge(left: list[int], right: list[int], operation_count: int) -> tuple[lis
 #     operation_count = 0
 #     # your implementation here
 #     return arr, operation_count
+
+def bubble_sort(array: list[int]) -> tuple[list[int], int]:
+    arr = array[:]
+    n = len(arr)
+    operation_count = 0
+
+    for i in range(n):
+        swapped = False
+        for j in range(0, n - i - 1):
+            operation_count+= 1
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                swapped = True
+        if not swapped:
+            break  
+    return arr, operation_count
+
+def insertion_sort(array: list[int]) -> tuple[list[int], int]:
+    arr = array[:]
+    n = len(arr)
+    operation_count = 0
+
+    if n <= 1:
+        return arr, operation_count
+    for i in range(1, n):
+        key = arr[i]         
+        j = i - 1
+        while j >= 0 and key < arr[j]: 
+            operation_count+= 1
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key 
+    return arr, operation_count

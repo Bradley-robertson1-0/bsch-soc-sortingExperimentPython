@@ -1,0 +1,16 @@
+Algorithm,InputSize,OrderingType,RunNumber,ElapsedMilliseconds,OperationCount
+MergeSort,50000,sorted,1,48.1591,382512
+MergeSort,50000,sorted,2,47.1037,382512
+MergeSort,50000,sorted,3,48.1041,382512
+MergeSort,50000,sorted,4,47.3642,382512
+MergeSort,50000,sorted,5,48.3528,382512
+BubbleSort,50000,sorted,1,2.1115,49999
+BubbleSort,50000,sorted,2,1.9356,49999
+BubbleSort,50000,sorted,3,1.9060,49999
+BubbleSort,50000,sorted,4,1.8592,49999
+BubbleSort,50000,sorted,5,2.1600,49999
+InsertionSort,50000,sorted,1,2.7427,0
+InsertionSort,50000,sorted,2,2.9170,0
+InsertionSort,50000,sorted,3,3.1195,0
+InsertionSort,50000,sorted,4,3.2206,0
+InsertionSort,50000,sorted,5,3.1029,0
